@@ -8,8 +8,8 @@ gpio_15xx.h:445:20:Chip_GPIO_SetPinToggle	16	static
 uart_15xx.h:127:20:Chip_UART_Enable	16	static
 uart_15xx.h:147:20:Chip_UART_TXEnable	16	static
 uart_15xx.h:252:20:Chip_UART_ConfigData	24	static
-libconfig-arm.h:247:5:__sys_write	32	static
-libconfig-arm.h:241:5:__sys_readc	16	static
+retarget.h:228:5:_write	32	static
+retarget.h:262:5:_read	32	static
 board.c:56:6:Board_UARTPutChar	16	static
 board.c:64:5:Board_UARTGetChar	16	static
 board.c:77:6:Board_UARTPutSTR	16	static

@@ -1,45 +1,95 @@
-13:11:49 **** Build of configuration Debug for project ESPProject ****
-make -r -j8 all 
+14:33:28 **** Incremental Build of configuration Debug for project ESPProject ****
+make -r -j4 all 
 Building file: ../src/ESPProject.cpp
-Building file: ../src/cr_cpp_config.cpp
-Building file: ../src/crp.c
-Building file: ../src/cr_startup_lpc15xx.cpp
-Building file: ../src/sysinit.c
+Building file: ../src/DigitalIoPin.cpp
+Building file: ../src/I2C.cpp
+Building file: ../src/I2Cpressuresensor.cpp
 Invoking: MCU C++ Compiler
 Invoking: MCU C++ Compiler
-arm-none-eabi-c++ -std=c++11 -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/ESPProject.d" -MT"src/ESPProject.d" -o "src/ESPProject.o" "../src/ESPProject.cpp"
 Invoking: MCU C++ Compiler
-arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MInvoking: MCU C Compiler
-F"src/cr_cpp_config.d" -MT"src/cr_cpp_config.o" -MT"src/cr_cpp_config.d" -o "src/cr_cpp_config.o" "../src/cr_cpp_config.cpp"
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -std=c++11 -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/ESPProject.d" -MT"src/ESPProject.d" -o "src/ESPProject.o" "../src/ESPProject.cpp"
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/DigitalIoPin.d" -MT"src/DigitalIoPin.o" -MT"src/DigitalIoPin.d" -o "src/DigitalIoPin.o" "../src/DigitalIoPin.cpp"
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/I2Cpressuresensor.d" -MT"src/I2Cpressuresensor.o" -MT"src/I2Cpressuresensor.d" -o "src/I2Cpressuresensor.o" "../src/I2Cpressuresensor.cpp"
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/I2C.d" -MT"src/I2C.o" -MT"src/I2C.d" -o "src/I2C.o" "../src/I2C.cpp"
+Finished building: ../src/I2C.cpp
+Finished building: ../src/DigitalIoPin.cpp
+ 
+ 
+Building file: ../src/ITM_write.c
+Building file: ../src/ITM_output.cpp
+Invoking: MCU C++ Compiler
 Invoking: MCU C Compiler
-arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/cr_startup_lpc15xx.d" -MT"src/cr_startup_lpc15xx.o" -MT"src/cr_startup_lpc15xx.d" -o "src/cr_startup_lpc15xx.o" "../src/cr_startup_lpc15xx.cpp"
-arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
-arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fmerge-constants -fmacro-prefix-map="../src/"=. -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/ITM_output.d" -MT"src/ITM_output.o" -MT"src/ITM_output.d" -o "src/ITM_output.o" "../src/ITM_output.cpp"
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/ITM_write.d" -MT"src/ITM_write.o" -MT"src/ITM_write.d" -o "src/ITM_write.o" "../src/ITM_write.c"
+Finished building: ../src/ESPProject.cpp
+Finished building: ../src/I2Cpressuresensor.cpp
+ 
+ 
+Building file: ../src/LiquidCrystal.cpp
+Building file: ../src/LpcUart.cpp
+Invoking: MCU C++ Compiler
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/LiquidCrystal.d" -MT"src/LiquidCrystal.o" -MT"src/LiquidCrystal.d" -o "src/LiquidCrystal.o" "../src/LiquidCrystal.cpp"
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/LpcUart.d" -MT"src/LpcUart.o" -MT"src/LpcUart.d" -o "src/LpcUart.o" "../src/LpcUart.cpp"
+Finished building: ../src/ITM_write.c
+ 
+Building file: ../src/ModbusMaster.cpp
+Finished building: ../src/ITM_output.cpp
+Invoking: MCU C++ Compiler
+ 
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/ModbusMaster.d" -MT"src/ModbusMaster.o" -MT"src/ModbusMaster.d" -o "src/ModbusMaster.o" "../src/ModbusMaster.cpp"
+Finished building: ../src/LpcUart.cpp
+Building file: ../src/ModbusRegister.cpp
+ 
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/ModbusRegister.d" -MT"src/ModbusRegister.o" -MT"src/ModbusRegister.d" -o "src/ModbusRegister.o" "../src/ModbusRegister.cpp"
+Building file: ../src/SerialPort.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/SerialPort.d" -MT"src/SerialPort.o" -MT"src/SerialPort.d" -o "src/SerialPort.o" "../src/SerialPort.cpp"
+Finished building: ../src/LiquidCrystal.cpp
+ 
+Finished building: ../src/ModbusRegister.cpp
+ 
+Building file: ../src/cr_cpp_config.cpp
+Finished building: ../src/ModbusMaster.cpp
+Invoking: MCU C++ Compiler
+ 
+Building file: ../src/cr_startup_lpc15xx.cpp
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/cr_cpp_config.d" -MT"src/cr_cpp_config.o" -MT"src/cr_cpp_config.d" -o "src/cr_cpp_config.o" "../src/cr_cpp_config.cpp"
+Building file: ../src/crp.c
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/cr_startup_lpc15xx.d" -MT"src/cr_startup_lpc15xx.o" -MT"src/cr_startup_lpc15xx.d" -o "src/cr_startup_lpc15xx.o" "../src/cr_startup_lpc15xx.cpp"
+Invoking: MCU C Compiler
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/crp.d" -MT"src/crp.o" -MT"src/crp.d" -o "src/crp.o" "../src/crp.c"
+Finished building: ../src/SerialPort.cpp
+ 
+Building file: ../src/sysinit.c
+Invoking: MCU C Compiler
+Finished building: ../src/cr_cpp_config.cpp
+arm-none-eabi-gcc -std=c11 -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M3 -D__USE_LPCOPEN -DCPP_USE_HEAP -D__LPC15XX__ -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\inc" -I"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\inc" -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -mcpu=cortex-m3 -mthumb -fstack-usage -MMD -MP -MF"src/sysinit.d" -MT"src/sysinit.o" -MT"src/sysinit.d" -o "src/sysinit.o" "../src/sysinit.c"
+Finished building: ../src/cr_startup_lpc15xx.cpp
 Finished building: ../src/crp.c
  
-Finished building: ../src/cr_startup_lpc15xx.cpp
-Finished building: ../src/cr_cpp_config.cpp
  
  
-Finished building: ../src/ESPProject.cpp
 Finished building: ../src/sysinit.c
- 
  
 Building target: ESPProject.axf
 Invoking: MCU C++ Linker
-arm-none-eabi-c++ -nostdlib -L"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_chip_15xx\Debug" -Xlinker -Map="ESPProject.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "ESPProject_Debug.ld" -o "ESPProject.axf"  ./src/ESPProject.o ./src/cr_cpp_config.o ./src/cr_startup_lpc15xx.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1549 -llpc_chip_15xx
+arm-none-eabi-c++ -nostdlib -L"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\Debug" -Xlinker -Map="ESPProject.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "ESPProject_Debug.ld" -o "ESPProject.axf"  ./src/DigitalIoPin.o ./src/ESPProject.o ./src/I2C.o ./src/I2Cpressuresensor.o ./src/ITM_output.o ./src/ITM_write.o ./src/LiquidCrystal.o ./src/LpcUart.o ./src/ModbusMaster.o ./src/ModbusRegister.o ./src/SerialPort.o ./src/cr_cpp_config.o ./src/cr_startup_lpc15xx.o ./src/crp.o ./src/sysinit.o   -llpc_board_nxp_lpcxpresso_1549 -llpc_chip_15xx
 Memory region         Used Size  Region Size  %age Used
-       MFlash256:        5032 B       256 KB      1.92%
-      Ram0_16_32:          36 B        32 KB      0.11%
+       MFlash256:       10624 B       256 KB      4.05%
+      Ram0_16_32:        2276 B        32 KB      6.95%
           Ram2_4:          0 GB         4 KB      0.00%
 Finished building target: ESPProject.axf
  
-C:/nxp/MCUXpressoIDE_11.1.0_3209/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.1.0.201909161352/buildtools/bin/make --no-print-directory post-build
+C:/nxp/MCUXpressoIDE_11.0.0_2516/ide/plugins/com.nxp.mcuxpresso.tools.win32_11.0.0.201905131304/buildtools/bin/make --no-print-directory post-build
 Performing post-build steps
 arm-none-eabi-size "ESPProject.axf"; # arm-none-eabi-objcopy -v -O binary "ESPProject.axf" "ESPProject.bin" ; # checksum -p LPC1549 -d "ESPProject.bin";
    text	   data	    bss	    dec	    hex	filename
-   5032	      0	     36	   5068	   13cc	ESPProject.axf
+   8512	   2112	    164	  10788	   2a24	ESPProject.axf
  
 
-13:11:50 Build Finished. 0 errors, 0 warnings. (took 1s.371ms)
+14:33:33 Build Finished. 0 errors, 0 warnings. (took 4s.880ms)
 

@@ -44,7 +44,7 @@ all: ESPProject.axf
 ESPProject.axf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: MCU C++ Linker'
-	arm-none-eabi-c++ -nostdlib -L"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\johan\Documents\MCUXpressoIDE_11.1.0_3209\ESPProject\lpc_chip_15xx\Debug" -Xlinker -Map="ESPProject.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "ESPProject_Debug.ld" -o "ESPProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-c++ -nostdlib -L"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_board_nxp_lpcxpresso_1549\Debug" -L"C:\Users\Elppo\Documents\Koulu\2.vuosi_Smart_Systems\3 jakso\ES-project\lpc_chip_15xx\Debug" -Xlinker -Map="ESPProject.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m3 -mthumb -T "ESPProject_Debug.ld" -o "ESPProject.axf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 	$(MAKE) --no-print-directory post-build

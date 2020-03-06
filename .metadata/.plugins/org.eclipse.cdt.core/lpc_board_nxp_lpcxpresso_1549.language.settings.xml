@@ -14,7 +14,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/board.c">
@@ -27,7 +27,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 				</language>

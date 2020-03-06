@@ -11,7 +11,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/sct_15xx.c">
@@ -21,7 +21,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/dma_15xx.c">
@@ -31,7 +31,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/i2cm_15xx.c">
@@ -41,7 +41,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/swm_15xx.c">
@@ -51,7 +51,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/uart_15xx.c">
@@ -61,7 +61,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/iap.c">
@@ -71,7 +71,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/stopwatch_15xx.c">
@@ -81,7 +81,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/pinint_15xx.c">
@@ -91,7 +91,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/wwdt_15xx.c">
@@ -101,7 +101,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/adc_15xx.c">
@@ -111,7 +111,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/crc_15xx.c">
@@ -121,7 +121,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/eeprom.c">
@@ -131,7 +131,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/pmu_15xx.c">
@@ -141,7 +141,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/sysctl_15xx.c">
@@ -151,7 +151,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/sysinit_15xx.c">
@@ -161,7 +161,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/i2c_common_15xx.c">
@@ -171,7 +171,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/rtc_15xx.c">
@@ -181,7 +181,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/acmp_15xx.c">
@@ -191,7 +191,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/chip_15xx.c">
@@ -201,7 +201,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/sctipu_15xx.c">
@@ -211,7 +211,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/clock_15xx.c">
@@ -221,7 +221,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/dac_15xx.c">
@@ -231,7 +231,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/ring_buffer.c">
@@ -241,7 +241,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/sct_pwm_15xx.c">
@@ -251,7 +251,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/spi_15xx.c">
@@ -261,7 +261,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/gpio_15xx.c">
@@ -271,7 +271,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/iocon_15xx.c">
@@ -281,7 +281,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 					<resource project-relative-path="src/ritimer_15xx.c">
@@ -291,7 +291,7 @@
 						<entry kind="macro" name="CORE_M3" value="1"/>
 						<entry kind="macro" name="DEBUG" value="1"/>
 						<entry kind="macro" name="__CODE_RED" value="1"/>
-						<entry kind="macro" name="__REDLIB__" value="1"/>
+						<entry kind="macro" name="__NEWLIB__" value="1"/>
 						<entry kind="macro" name="__USE_LPCOPEN" value="1"/>
 					</resource>
 				</language>

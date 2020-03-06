@@ -6,7 +6,7 @@
  * Generated linker script file for LPC1549
  * Created from linkscript.ldt by FMCreateLinkLibraries
  * Using Freemarker v2.3.23
- * MCUXpresso IDE v11.1.0 [Build 3209] [2019-12-12] on 27.2.2020 13:11:48
+ * MCUXpresso IDE v11.0.0 [Build 2516] [2019-06-05] on 6.3.2020 14:33:28
  */
 
 INCLUDE "ESPProject_Debug_library.ld"
@@ -107,7 +107,6 @@ SECTIONS
     {
         FILL(0xff)
         PROVIDE(__start_data_RAM2 = .) ;
-        PROVIDE(__start_data_Ram2_4 = .) ;
         *(.ramfunc.$RAM2)
         *(.ramfunc.$Ram2_4)
         *(.data.$RAM2)
@@ -116,92 +115,73 @@ SECTIONS
         *(.data.$Ram2_4.*)
         . = ALIGN(4) ;
         PROVIDE(__end_data_RAM2 = .) ;
-        PROVIDE(__end_data_Ram2_4 = .) ;
      } > Ram2_4 AT>MFlash256
-
     /* MAIN DATA SECTION */
-    .uninit_RESERVED (NOLOAD) : ALIGN(4)
+    .uninit_RESERVED (NOLOAD) :
     {
-        _start_uninit_RESERVED = .;
+        . = ALIGN(4) ;
         KEEP(*(.bss.$RESERVED*))
        . = ALIGN(4) ;
         _end_uninit_RESERVED = .;
-    } > Ram0_16_32 AT> Ram0_16_32
+    } > Ram0_16_32
 
     /* Main DATA section (Ram0_16_32) */
     .data : ALIGN(4)
     {
        FILL(0xff)
        _data = . ;
-       PROVIDE(__start_data_RAM = .) ;
-       PROVIDE(__start_data_Ram0_16_32 = .) ;
        *(vtable)
        *(.ramfunc*)
-       KEEP(*(CodeQuickAccess))
-       KEEP(*(DataQuickAccess))
-       *(RamFunction)
        *(.data*)
        . = ALIGN(4) ;
        _edata = . ;
-       PROVIDE(__end_data_RAM = .) ;
-       PROVIDE(__end_data_Ram0_16_32 = .) ;
     } > Ram0_16_32 AT>MFlash256
 
     /* BSS section for Ram2_4 */
-    .bss_RAM2 : ALIGN(4)
+    .bss_RAM2 :
     {
+       . = ALIGN(4) ;
        PROVIDE(__start_bss_RAM2 = .) ;
-       PROVIDE(__start_bss_Ram2_4 = .) ;
        *(.bss.$RAM2)
        *(.bss.$Ram2_4)
        *(.bss.$RAM2.*)
        *(.bss.$Ram2_4.*)
        . = ALIGN (. != 0 ? 4 : 1) ; /* avoid empty segment */
        PROVIDE(__end_bss_RAM2 = .) ;
-       PROVIDE(__end_bss_Ram2_4 = .) ;
-    } > Ram2_4 AT> Ram2_4
+    } > Ram2_4
 
     /* MAIN BSS SECTION */
-    .bss : ALIGN(4)
+    .bss :
     {
+        . = ALIGN(4) ;
         _bss = .;
-        PROVIDE(__start_bss_RAM = .) ;
-        PROVIDE(__start_bss_Ram0_16_32 = .) ;
         *(.bss*)
         *(COMMON)
         . = ALIGN(4) ;
         _ebss = .;
-        PROVIDE(__end_bss_RAM = .) ;
-        PROVIDE(__end_bss_Ram0_16_32 = .) ;
         PROVIDE(end = .);
-    } > Ram0_16_32 AT> Ram0_16_32
+    } > Ram0_16_32
 
     /* NOINIT section for Ram2_4 */
-    .noinit_RAM2 (NOLOAD) : ALIGN(4)
+    .noinit_RAM2 (NOLOAD) :
     {
-       PROVIDE(__start_noinit_RAM2 = .) ;
-       PROVIDE(__start_noinit_Ram2_4 = .) ;
+       . = ALIGN(4) ;
        *(.noinit.$RAM2)
        *(.noinit.$Ram2_4)
        *(.noinit.$RAM2.*)
        *(.noinit.$Ram2_4.*)
        . = ALIGN(4) ;
-       PROVIDE(__end_noinit_RAM2 = .) ;
-       PROVIDE(__end_noinit_Ram2_4 = .) ;
-    } > Ram2_4 AT> Ram2_4
+    } > Ram2_4
 
     /* DEFAULT NOINIT SECTION */
-    .noinit (NOLOAD): ALIGN(4)
+    .noinit (NOLOAD):
     {
+         . = ALIGN(4) ;
         _noinit = .;
-        PROVIDE(__start_noinit_RAM = .) ;
-        PROVIDE(__start_noinit_Ram0_16_32 = .) ;
         *(.noinit*)
          . = ALIGN(4) ;
         _end_noinit = .;
-       PROVIDE(__end_noinit_RAM = .) ;
-       PROVIDE(__end_noinit_Ram0_16_32 = .) ;        
-    } > Ram0_16_32 AT> Ram0_16_32
+    } > Ram0_16_32
     PROVIDE(_pvHeapStart = DEFINED(__user_heap_base) ? __user_heap_base : .);
     PROVIDE(_vStackTop = DEFINED(__user_stack_top) ? __user_stack_top : __top_Ram0_16_32 - 0);
 

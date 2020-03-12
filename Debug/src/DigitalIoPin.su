@@ -1,0 +1,4 @@
+gpio_15xx.h:95:20:void Chip_GPIO_SetPinState(LPC_GPIO_T*, uint8_t, uint8_t, bool)	16	static
+gpio_15xx.h:121:20:bool Chip_GPIO_GetPinState(LPC_GPIO_T*, uint8_t, uint8_t)	16	static
+DigitalIoPin.cpp:11:6:bool DigitalIoPin::read()	16	static
+DigitalIoPin.cpp:16:6:void DigitalIoPin::write(bool)	16	static

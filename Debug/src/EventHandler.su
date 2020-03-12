@@ -1,0 +1,8 @@
+EventHandler.cpp:10:1:EventHandler::EventHandler()	16	static
+EventHandler.cpp:15:1:EventHandler::~EventHandler()	16	static
+EventHandler.cpp:15:1:virtual EventHandler::~EventHandler()	16	static
+EventHandler.cpp:19:6:bool EventHandler::SWcheckNthBitIs0(uint, uint16_t)	32	static
+EventHandler.cpp:23:6:bool EventHandler::SWcheckNthBitIs1(uint, uint16_t)	24	static
+EventHandler.cpp:29:6:void EventHandler::CWsetNthBitTo0(uint, uint16_t&)	32	static
+EventHandler.cpp:34:6:void EventHandler::CWsetNthBitTo1(uint, uint16_t&)	32	static
+EventHandler.cpp:39:6:void EventHandler::toggleNthBit(uint, uint16_t&)	32	static
